@@ -19,6 +19,7 @@ const Customlist = () =>{
     
 <Box sx={{ overflow: 'auto' }}>
           <List>
+        {/* iterating through links array and returning the new array of each  List item component */}
             {links.map((tex, index) => (
               <Link to={tex.link}>
               <ListItem  key={tex.text}>
