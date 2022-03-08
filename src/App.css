@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.Container {
+  color: brown;
+  display: flex;
+  justify-content: flex-end;
+}

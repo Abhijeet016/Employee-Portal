@@ -3,7 +3,7 @@ import { Drawer } from '@mui/material';
 //import AppBar from '@mui/material/AppBar';
 //import CssBaseline from '@mui/material/CssBaseline';
 import Toolbar from '@mui/material/Toolbar';
-import Customlist from './customlist';
+import Customlist from './Customlist';
 
 const drawerWidth=200;
 function Sidebar() {

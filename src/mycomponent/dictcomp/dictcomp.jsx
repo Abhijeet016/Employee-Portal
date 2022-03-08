@@ -1,18 +1,17 @@
-import Header from "../Header"
-import Sidebar from "../Sidebar"
-import React from "react"
+import Header from "../Header";
+import Sidebar from "../Sidebar";
+import React from "react";
+import Table from "../Table";
 
 const Dictcomp = () => {
+  return (
+    <React.Fragment>
+      <Header></Header>
+      <Table></Table>
 
-     return (
-<React.Fragment>
-<Header></Header>
-        <Sidebar></Sidebar>
-    
-</React.Fragment>
-     )
-
-
-}
+      <Sidebar></Sidebar>
+    </React.Fragment>
+  );
+};
 
 export default Dictcomp;
